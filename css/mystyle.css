@@ -1,0 +1,177 @@
+
+header
+li {
+    display: inline;
+    margin-left: 12%;
+    margin-right:12%;
+
+}
+header a:link {
+    color:#e10c7d;
+    font-size: 25px;
+    text-decoration: none;
+  }
+header{
+    background-color:black;
+}
+
+nav
+li {
+    display: inline;
+    margin-left: 7%;
+    margin-right:7%;
+}
+nav{
+    background-color: #000000;
+    font-style: oblique;
+}
+
+nav  a:link {
+    color:#e10c7d;
+    font-size: 25px;
+    text-decoration: none;
+  }
+nav a:hover {
+    background-color: #ffffff;
+    
+}
+footer {
+    clear: both;
+    background-color: #000000;
+}
+footer  a:link {
+    color:#e10c7d;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+footer li {
+    display: inline;
+    margin-left: 8%;
+    margin-right:8%;
+}
+h1 {
+   text-align: center;
+}
+h2,h3 {
+    margin-left:12%;
+ }
+
+#news, #refreshpage{
+    display:inline-block;
+}
+#refreshpage {
+    position: absolute;
+    top: 38%;
+    
+}
+
+#map
+    {
+       float: right;
+       margin-right: 10%;
+       margin-bottom: 5%;
+    }
+ p{
+    text-align:justify;
+}
+
+#contact
+    {
+        margin-left:10%;
+        float:left;
+        margin-bottom: 5%;
+    }
+form
+    {
+    margin-left:10%;
+    float:left;
+    margin-bottom: 5%;
+    color:#ffffff;
+    }
+#news
+    {
+        margin-left: 12%;
+        margin-right: 12%;
+        width:50%;
+    }
+
+table, th, td {
+    border: 1px solid black;
+    margin-bottom: 5%;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  #travel,  #shopping ,  #cooking
+  {
+    display: inline-block;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 5%;
+  }
+  h1,h2,h3,h4{
+    color:#e10c7d;
+  }
+
+.fab,.fa-medium {
+    color:#e10c7d;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 50%;
+    background-color:#e10c7d;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#con
+{
+    background-color: #000000;
+    height:450px;
+}
+#info
+{
+    color:#ffffff;
+    margin-left:10%;
+}
+form ,#info ,#map {
+    display: inline-block;
+    margin-top: 1%;
+}
+#proa, #prob, #proc, #prod
+{
+    display:inline-block;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
+#proj
+{
+    background-color:black;
+}
+p {
+    font-style: oblique;
+}
+
+
+
+#about, #aboutone
+{
+    display:inline;
+    margin-left: 7%;
+    margin-bottom: 3%;
+}
