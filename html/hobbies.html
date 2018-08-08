@@ -1,52 +1,79 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Assignment First</title>
 <link rel="stylesheet" type="text/css" href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/css/mystyle.css">
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/css/hobbiesstyle.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </head>
 <body>
-    <header>
-        <ul>
-           <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/my_self.png" ></a></li>
-           <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html"><b>Rachita Upreti </b> </a> </li>
-           <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html"> <img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/logo1.png"> </a></li>
-        </ul>
-    </header>
+<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout -->
 
-    <nav>
-        <ul>
-            <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html">Home</a></li>
-            <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/skill.html">Skill</a></li>
-            <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/hobbies.html">Hobby</a></li>
-            <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html#proj">Projects</a></li>
-            <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html#con">Contact-Us</a></li>
+<div class="wrapper">
+        <header class="main-head">
+            <ul>
+                    <div class="item1"> <li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/my_self.png" ></a></li></div>
+                    <div class="item1"><li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html">Rachita Upreti  </a> </li></div>
+                    <div class="item1"><li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html"> <img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/logo1.png"> </a></li></div>
             </ul>
-    </nav>  
-
-    <div id="proj">
-            <h2>Hobbies</h2>
-                <div id="proa"><p style="color:white";>Travelling</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image2.jpeg" width="200" height="250"></div>
-                <div id="prob"><p style="color:white";>Gardening</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image3.jpeg" width="200" height="250"></div>
-                <div id="proc"><p style="color:white";>Hiking</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image4.jpeg" width="200" height="250"></div>
-                <div id="prod"><p style="color:white";>Rafting</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image7.jpeg" width="200" height="250"></div>
-                <div id="proa"><p style="color:white";>Shopping</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image8.jpg" width="200" height="250"></div>
-                <div id="prob"><p style="color:white";>Cooking</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image9.jpeg" width="200" height="250"></div>
-                <div id="proc"><p style="color:white";>Fishing</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image16.jpeg" width="200" height="250"></div>
-                <div id="prod"><p style="color:white";>Swimming</p><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image17.jpeg" width="200" height="250"></div>
-    </div>
-        
-
-
-   
-    <footer>
+        </header>
+        <nav class="main-nav">
+                <ul>
+                    <div class="item1"><li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/index.html">Home</a></li></div>
+                    <div class="item1"><li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/skill.html">Skill</a></li></div>
+                    <div class="item1"><li><a href="file:///C:/Users/Rachita/Desktop/IntegrifyProject/html/hobbies.html">Hobby</a></li></div>
+                    <div class="item1"><li><a href="#proj">Projects</a></li></div>
+                    <div class="item1"><li><a href="#con">Contact-Us</a></li></div>
+                </ul>
+        </nav>
+        <article class="content">
+            
+            <div class="container">
+    
+                <h2>Hobbies</h2>
+            
+                
+                
+                <div class="grid-container">
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image2.jpeg"></div>
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image3.jpeg"></div>
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image4.jpeg"></div>  
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image7.jpeg"></div>
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image2.jpeg"></div>
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image3.jpeg"></div>  
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image16.jpeg"></div>
+                  <div class="grid-item"><img src="file:///C:/Users/Rachita/Desktop/IntegrifyProject/images/image17.jpeg"></div>
+                </div>
+            </div>
+        </article> 
+        <div class="side">
+            
+                <h2>Learing</h2>
+           
+                <p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+            <p>
+        </div>
+        <div class="ad"><h2>Mission Possible</h2><p>In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p></div>
+        <footer class="main-footer">
             <h3>Integrify Academy</h3>
-        <ul>
-            <li><i class="fab fa-medium"></i> <a href="#medium">Medium</a></li>
-            <li><i class="fab fa-twitter"></i><a href="#twitter">Twitter</a></li>
-            <li><i class="fab fa-linkedin"></i><a href="#linkedIN">  LinkedIN </a></li>
-            <li><i class="fab fa-github"></i><a href="#github">GitHub</a></li>
-          </ul>
-    </footer>
+            <ul>
+                <li><i class="fab fa-medium"></i> <a href="#medium">Medium</a></li>
+                <li><i class="fab fa-twitter"></i><a href="#twitter">Twitter</a></li>
+                <li><i class="fab fa-linkedin"></i><a href="#linkedIN">  LinkedIN </a></li>
+                    <li><i class="fab fa-github"></i><a href="#github">GitHub</a></li>
+            </ul>
+        </footer>
+</div>
+
+
+        
+   
 </body>
 </html> 
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+* {box-sizing: border-box;}
+
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+        font: 1.2em Helvetica;
+    }
+
+    .wrapper > * {
+        border: 2px solid  #e10c7d;
+        background-color: #000000;
+        border-radius: 7px;
+        color: #ffffff;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav
+
+nav{
+    background-color: #000000;
+    font-style: oblique;
+}
+
+nav  a:link {
+    color:#e10c7d;
+    font-size: 25px;
+    text-decoration: none;
+  }
+nav a:hover {
+    background-color: #ffffff;
+    
+}
+h1,h2,h3,h4
+{
+    color:#e10c7d;
+}
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.main-nav {
+  grid-area: nav;
+}
+.side {
+  grid-area: sidebar;
+}
+.ad {
+  grid-area: ad;
+}
+.main-footer {
+  grid-area: footer;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+}
+
+@media (min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 5fr 1fr;
+    grid-template-areas: 
+      "header header  header"
+      "nav    nav nav "
+      "content    content ad"
+      "content content sidebar"
+      "footer footer  footer"
+   }
+   nav ul {
+     flex-direction: row;
+   }
+}
+
+.main-head {
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    background-color:#000000;
+    grid-column-gap: 70px;
+    padding: 5px;
+  }
+  .grid-item {
+    background-color:transparent;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+  }
+  .grid-item {
+    grid-column-start: col-start 2;
+  }
+
+  .main-nav {
+    display:grid;
+    grid-template-columns: auto auto auto auto auto ;
+    background-color:#000000;
+    grid-column-gap: 5%;
+    padding: 5px;
+  }
+  .item1 {
+    background-color:transparent;
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+   
+  }
+  header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.fab,.fa-medium {
+    color:#e10c7d;
+  }
+  footer {
+    clear: both;
+    background-color: #000000;
+}
+footer  a:link {
+    color:#e10c7d;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+footer li {
+    display: inline;
+    
+}
+
+  

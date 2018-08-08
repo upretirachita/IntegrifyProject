@@ -1,0 +1,111 @@
+* {box-sizing: border-box;}
+
+    .wrapper {
+        max-width: 1024px;
+        margin: 0 auto;
+        font: 1.2em Helvetica, arial, sans-serif;
+        
+    }
+
+    .wrapper > * {
+        border: 2px solid #e10c7d;
+        background-color:#000000;
+        color:#ffffff;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        background-color: #000000;
+        font-style: oblique;
+    }
+    
+    nav  a:link {
+        color:#e10c7d;
+        font-size: 25px;
+        text-decoration: none;
+      }
+    nav a:hover {
+        background-color: #ffffff;
+        
+    }
+.main-head {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+}
+.main-nav {
+  grid-area: nav;
+}
+.side {
+  grid-area: sidebar;
+}
+.ad {
+  grid-area: ad;
+}
+.main-footer {
+  grid-area: footer;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas: 
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+}
+@media (min-width: 500px) {
+  .wrapper {
+    grid-template-columns: 3fr 2fr;
+    grid-template-areas: 
+      "header  header"
+      "nav     nav"
+      "content sidebar"
+      "content ad"
+      "footer     footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration:none;
+}
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration:none;
+}
+}
+@media (min-width: 700px) {
+  .wrapper {
+    {
+        .wrapper {
+          grid-template-columns: 1fr 4fr 1fr;
+          grid-template-areas: 
+            "header header  header header header"
+            "nav nav nav nav nav "
+            "content content   content  sidebar sidebar"
+            "content content   content ad  ad"
+            "footer footer  footer footer footer"
+         }
+   nav ul {
+     flex-direction: column;
+   }
+}
+
